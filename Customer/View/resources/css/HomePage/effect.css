@@ -1,0 +1,24 @@
+#card:hover {
+  margin-top: -8px;
+  margin-left: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card {
+  transition: 200ms linear;
+}
+
+.imgEffect {
+  transition: 500ms linear;
+  cursor: pointer;
+}
+
+.productCard:hover .imgEffect {
+  transform: translateY(-40px);
+}
+
+.cartBtn {
+  transition: 500ms linear;
+}
+.cartBtn:hover {
+  letter-spacing: 2px;
+}

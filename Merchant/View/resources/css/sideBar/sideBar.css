@@ -1,0 +1,8 @@
+#sideBarContainer {
+    width: 80px;
+    transition: all 0.2s linear;
+}
+
+#sideBarContainer.expanded {
+    width: 288px;
+}
